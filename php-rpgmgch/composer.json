@@ -1,0 +1,17 @@
+{
+    "name": "simon/exo2",
+    "description": "site ecom",
+    "require": {
+        "phpunit/phpunit": "^6.5"
+    },
+    "scripts": {
+        "testu":"./vendor/bin/phpunit ./Test.php"
+    },
+    "authors": [
+        {
+            "name": "51m0n2063r",
+            "email": "simon.roger31@gmail.com"
+        }
+    ]
+}
+  

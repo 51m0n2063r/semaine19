@@ -1,0 +1,15 @@
+{
+    "name": "simon/poo101",
+    "authors": [
+        {
+            "name": "51m0n2063r",
+            "email": "simon.roger31@gmail.com"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "^6.5"
+    },
+    "scripts": {
+        "testu":"./vendor/bin/phpunit ./Test.php"
+    }
+}

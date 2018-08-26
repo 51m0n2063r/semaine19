@@ -13,6 +13,7 @@
 </head>
 <body>
 <div>
+     
     <?php echo $mystr->bold();?> <br>
     <?php echo $mystr->italic();?> <br>
     <?php echo $mystr->underline();?> <br>

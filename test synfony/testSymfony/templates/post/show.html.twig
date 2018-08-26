@@ -1,0 +1,14 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <section class ="post">
+    <h3 class="post-title">{{ post.title }}</h3>
+    <div class="post-content">
+    {{ post.content }}
+    </div>
+    <div class="post-meta">
+    <span class="author"{{ post.author }} </span>
+    </div>
+    </section>
+    
+{% endblock %}
